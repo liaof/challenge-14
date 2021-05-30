@@ -14,7 +14,7 @@ If you are not logged in, clicking on any non-nav element on the homepage will t
 
 The logout timer can be set in the idleTimer() method located in /public/javascript/logout.js. 
 
-]You can see it in action here.](https://www.youtube.com/watch?v=YvdwpdaQVa0)
+[You can see it in action here.](https://www.youtube.com/watch?v=YvdwpdaQVa0)
 
 ### Resources Used
 [Auto-logout timer adapted from here](https://gist.github.com/gerard-kanters/2ce9daa5c23d8abe36c2)
