@@ -28,4 +28,9 @@
 </section>
 {{/if}}
 
-<script src="/javascript/add-post.js"></script>
+
+{{#if loggedIn}}
+  <script src="/javascript/add-post.js"></script>
+{{else}}
+  <script src="/javascript/login.js"></script>
+{{/if}}

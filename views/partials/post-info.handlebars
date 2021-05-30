@@ -1,10 +1,26 @@
-<article class="post">
-  <div class="title">
-    <a href="/post/{{id}}" target="_blank">{{title}}</a>
-  </div>
-  <div class="meta">
-    by {{user.username}} on {{format_date created_at}}
-    |
-    {{comments.length}} {{format_plural "comment" comments.length}}
-  </div>
-</article>
+
+{{#if loggedIn}}
+  <article class="post">
+    <div class="title">
+      <a href="/post/{{id}}" target="_blank" >{{title}}</a>
+    </div>
+    <div class="meta">
+      by {{user.username}} on {{format_date created_at}}
+      |
+      {{comments.length}} {{format_plural "comment" comments.length}}
+    </div>
+  </article>
+
+{{else}}
+
+  <article class="post">
+    <div class="title">
+      <a href="/login" target="_blank" >{{title}}</a>
+    </div>
+    <div class="meta">
+      by {{user.username}} on {{format_date created_at}}
+      |
+      {{comments.length}} {{format_plural "comment" comments.length}}
+    </div>
+  </article>
+{{/if}}

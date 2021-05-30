@@ -10,6 +10,8 @@ multiple tasks is a great efficancy booster, reflected in the very concept of MV
 
 ### Usage
 
+If you are not logged in, clicking on any non-nav element on the homepage will take you to the login/signup page
+
 The logout timer can be set in the idleTimer() method located in /public/javascript/logout.js. 
 
 ]You can see it in action here.](https://www.youtube.com/watch?v=YvdwpdaQVa0)
