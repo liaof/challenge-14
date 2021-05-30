@@ -21,9 +21,9 @@ The logout timer can be set in the idleTimer() method located in /public/javascr
 
 ### Packages Used
 
-npm install --save sequelize
-npm install dotenv
-npm install bcrypt
-npm install handlebars
-npm install express-session
-npm install connect-session-sequelize
+npm install --save sequelize</br>
+npm install dotenv</br>
+npm install bcrypt</br>
+npm install handlebars</br>
+npm install express-session</br>
+npm install connect-session-sequelize</br>
