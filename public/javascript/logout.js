@@ -22,7 +22,7 @@ function idleTimer() {
 
  function resetTimer() {
       clearTimeout(t);
-      t = setTimeout(logout, 5000);  // time is in milliseconds (1000 is 1 second)
+      t = setTimeout(logout, 800000);  // time is in milliseconds (1000 is 1 second)
   }
 }
 
