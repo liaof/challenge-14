@@ -1,8 +1,16 @@
 <ol class="post-list">
   {{#each posts as |post|}}
-  <li>
-    {{> post-info post }}
-  </li>
+    {{#if loggedIn}}
+      <li>
+        {{> post-info post}}
+      </li>
+    {{else}}
+      <li>
+        {{> unlog-post-info post}}
+      </li>
+    {{/if}}
+
+    
   {{/each}}
 </ol>
 
