@@ -4,7 +4,7 @@ For this week's challenge, I created a full stack blog being served via Heroku. 
 a group project, the scope of said challenge is understandbly smaller; much of the work required has been done in the preceeding two 
 weeks in the module homework. That said, a revamp of the entire backend and frontend was needed to bring the functionality inline with 
 the challenge requirements. This is a simple but very important exercise because the usage of a template for 
-multiple tasks is a great efficancy booster, reflected in the very concept of MVC structuring
+multiple tasks is a great efficancy booster, reflected in the very concept of MVC structurings
 
 ### [Program in action](https://www.youtube.com/watch?v=vtFeduhYlgE)
 
